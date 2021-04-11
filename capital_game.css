@@ -1,0 +1,62 @@
+body {
+    background-color: #eee;
+}
+
+.content {
+	max-width: 500px;
+  	margin: auto;
+}
+
+.column {
+display: table;
+	float: left;
+	padding: 5px;
+	text-align: left;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	border-bottom: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	border-bottom-style: solid;
+}
+
+td {
+	padding: 4px;
+	border-bottom-style: outset;
+}
+
+.center {
+	text-align: center;
+}
+
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+h4 {
+	text-align: center;
+	font-weight: 900;
+}
+
+.correct {
+	color: green;
+}
+
+.wrong {
+	color: red;
+}
+
+.wrong-line {
+	color: red;
+	text-decoration: line-through;
+}

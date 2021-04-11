@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nurlykhan Kairly 20190777</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="capital_game.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+    <link rel="stylesheet" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.min.css">
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="country_capital_pairs.js"></script>
+    <script src="capital_game.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+  </head>
+  <body>
+	<div class="content">
+	<h1>World Capital Quiz Game</h1>
+
+	<h2>Do you know the capital of this country?</h2>
+
+  <select id="dropdown">
+    <option value="all">All</option>
+    <option value="correct">Correct</option>
+    <option value="wrong">Wrong</option>
+  </select>
+
+<table style="width:100%" id="myTable">
+  <tr>
+    <th>COUNTRY</th>
+    <th>CAPITAL CITY</th> 
+    <th>ANSWER</th>
+  </tr>
+  <tr id="quiz_input">
+    <td id="pr2__country">Indonesia</td>
+    <td><input type="text" id="pr2__capital"></td>
+    <td><button type="button" id="pr2__button">Check Answer</button></td>
+  </tr>
+</table>
+	</div>
+  </body>
+</html>
